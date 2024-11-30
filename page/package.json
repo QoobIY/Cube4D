@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://qoobiy.github.io/Cube4D/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

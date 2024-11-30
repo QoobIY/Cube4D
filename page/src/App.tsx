@@ -56,7 +56,7 @@ export const App = () => {
     <div className={container}>
       <h1>Cube 4D</h1>
       <div className={description}>
-        Cube 4D is a cutting-edge cryptocurrency that unlocks the mysteries of
+        Cube 4D is a cutting-edge token that unlocks the mysteries of
         the fourth dimension
       </div>
       <div className={buttons}>
