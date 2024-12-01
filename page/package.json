@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://qoobiy.github.io/Cube4D/",
+  "homepage": "http://cube4dsolana.xyz/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname cube4dsolana.xyz"
   },
   "dependencies": {
     "pixi.js": "^8.6.2",

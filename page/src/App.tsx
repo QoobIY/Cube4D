@@ -56,8 +56,15 @@ export const App = () => {
     <div className={container}>
       <h1>Cube 4D</h1>
       <div className={description}>
-        Cube 4D is a cutting-edge token that unlocks the mysteries of
-        the fourth dimension
+        Cube 4D is a cutting-edge token that unlocks the mysteries of the fourth
+        dimension
+      </div>
+      <div className={description2}>
+        The basic concept embedded in my token. Invest once - use in all
+        services. We call this use of the token multidimensional. The number of
+        services is growing and our expenses are increasing many times with the
+        consumption of new services. Our goal is to use a single place to pay
+        for services and divide its real value proportionally to each service.
       </div>
       <div className={buttons}>
         <a
@@ -68,6 +75,12 @@ export const App = () => {
         </a>
         <a className={button} href="https://t.me/cube4dsolana">
           Telegram
+        </a>
+        <a
+          className={button}
+          href="https://raydium.io/swap/?inputMint=sol&outputMint=mntp2EHYbbFkMN5xWccSpUaSastFQEhirGXPkGLi2E8"
+        >
+          Buy
         </a>
       </div>
     </div>
@@ -80,7 +93,14 @@ const container = style({
 
 const description = style({
   color: "grey",
-  fontSize: 78,
+  fontSize: 72,
+  marginBottom: 16,
+});
+
+const description2 = style({
+  color: "#fefefe",
+  fontSize: 32,
+  marginBottom: 16,
 });
 
 const buttons = style({
@@ -90,14 +110,14 @@ const buttons = style({
 
 const button = style({
   borderColor: "rgb(255, 255, 255, 1)",
-  backgroundImage: "linear-gradient(90deg, #c766ef, #7928d2 51.04%, #2b0c52)",
+  background: "#2b0c52",
   borderRadius: 9999,
   fontSize: "1rem",
   lineHeight: "1.5rem",
   padding: "0.5rem",
   color: "white",
-  textDecoration: 'none',
-  border: '1px solid',
+  textDecoration: "none",
+  border: "1px solid",
 });
 
 const canvas = style({
